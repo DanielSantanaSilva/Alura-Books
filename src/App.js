@@ -1,14 +1,12 @@
 import './App.css';
-import LogoComponent from './componentes/Logo'
+import Header from './componentes/Header'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <LogoComponent />
-      </header>
+      <Header />
     </div>
   );
 }
 
-export default App;
+export default App
